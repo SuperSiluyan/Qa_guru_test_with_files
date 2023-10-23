@@ -32,28 +32,27 @@ public class ModelJsonNew {
 
     private PersonModel person;
 
-public static class PersonModel {
-    public String getLink() {
-        return link;
+    public static class PersonModel {
+        public String getLink() {
+            return link;
+        }
+
+        public void setLink(String link) {
+            this.link = link;
+        }
+
+        private String link;
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        private String name;
     }
-
-    public void setLink(String link) {
-        this.link = link;
-    }
-
-    private String link;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    private String name;
-    }
-
 
 
 }
